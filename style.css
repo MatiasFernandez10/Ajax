@@ -1,0 +1,124 @@
+body {
+  height: 300px;
+  cursor:grab;
+  background: radial-gradient(blue, black, blue, black);
+  background-size: 500% 500%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  transform: scale(0.5);
+  transform-origin: top center;
+}
+
+.container {
+  background: radial-gradient(red, yellow, red);
+  padding: 2rem;
+  border-radius: 80px;
+  margin-top: 3rem;
+  box-shadow: 0 30px 20px rgb(255, 255, 255);
+  font-size: 50px;
+  height: 150%;
+  width: 50%;
+  padding-left: 17%;
+  padding-right: 13%;
+  margin-left: 7%;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 80px;
+  text-decoration: underline;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #000000;
+  text-align: center;
+  font-size: 100%;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 3%;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  transition: transform 0.4s;
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button:hover {
+  transform: scale(1.5);
+  cursor:help;
+}
+
+#ConteinerCard {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 2rem;
+  padding-right: 280px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgb(255, 129, 129);
+  background-image: url(https://external-preview.redd.it/FAU8vQ_sqnnUqb8FBs0rR7q4IO01Dpdww7DvjoY-ggY.jpg?auto=webp&s=cd218cbe0e7daa5de9295d85b34475a7cfe21774);
+  background-size: 1800px;
+  background-position-y: center;
+  background-position-x: center;
+  border-radius: 100px;
+  width: 65%;
+  margin-left: 7%;
+  transition: transform 0.4s;
+}
+
+#ConteinerCard2{
+  background-size: 1000px;
+}
+
+.card-title {
+  font-family:fantasy;
+  font-size: 100px;
+  padding-left: 45%;
+  text-decoration-line:underline;
+  color: rgb(255, 0, 0);
+  text-decoration-color: rgb(255, 255, 255);
+}
+
+#pokemon {
+  background-size: contain;
+  padding-left: 0px;
+  width: 15%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#ConteinerCard:hover {
+  transform: scale(0.8);
+  cursor:cell;
+}
+
+#logoPokemon{
+  position: absolute;
+  top: 20%;
+  left: 100%;
+  width: 700px;
+  transition: transform 0.4s;
+}
+
+#logopokemon2{
+  position: absolute;
+  top: 20%;
+  right: 100%;
+  width: 700px;
+  transition: transform 0.4s;
+}
+
+#logoPokemon:hover{
+  transform: scale(0.5);
+}
+
+#logopokemon2:hover{
+  transform: scale(0.5);
+}

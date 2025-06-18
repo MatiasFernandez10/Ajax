@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link
+      rel="stylesheet"
+
+    />
+    <link rel="stylesheet" href="style.css" />
+        <div id="ConteinerCard"></div>
+  </head>
+
+  <body onload="solicitudAJAX()">
+    <img src="https://crystalpng.com/wp-content/uploads/2025/02/pokemon-logo-04.png" id="logoPokemon" alt="Pokemon Logo">
+    <img src="https://crystalpng.com/wp-content/uploads/2025/02/pokemon-logo-04.png" id="logopokemon2" alt="">
+    <div class="container">
+      <h4>
+        Pokemon y sus tipos <span class="badge bg-secondary">Ajax</span>
+      </h4>
+      <label for="nPokemon">Buscar</label>
+      <input
+        type="text"
+        id="nPokemon"
+        placeholder="Ingresar el Pokemon"
+        data=""
+      />
+      <button onclick="buscar()">
+        Busca dale
+      </button>
+    </div>
+    <script src="js/index.js"></script>
+    
+  </body>
+</html>
