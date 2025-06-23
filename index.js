@@ -64,7 +64,7 @@ function buscar() {
   var busqueda = document.querySelector("#nPokemon").value.toLowerCase();
 
   for (var i = 0; i < data.results.length; i++) {
-    if (data.results[i].name == busqueda) {
+    if (data.results[i].name.toLowerCase() === busqueda) {
       url = data.results[i].url;
     }
   }
